@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/teal_500</color>
+    <color name="colorPrimaryLight">@color/teal_300</color>
+    <color name="colorPrimaryDark">@color/teal_700</color>
+    <color name="colorAccent">@color/orange_500</color>
+
+    <color name="ucrop_color_toolbar">@color/teal_500</color>
+    <color name="ucrop_color_statusbar">@color/teal_700</color>
+    <color name="ucrop_color_widget_active">@color/teal_500</color>
+    <color name="ucrop_color_toolbar_widget">#fff</color>
+
+    <color name="dialog_choose_icon_color">@color/grey_600</color>
+    <color name="dialog_choose_text_color">@color/grey_600</color>
+
+</resources>

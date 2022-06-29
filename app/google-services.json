@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "107878134873",
+    "project_id": "microlearn-b7357",
+    "storage_bucket": "microlearn-b7357.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:107878134873:android:4081a7259b5636b34b6d48",
+        "android_client_info": {
+          "package_name": "com.yohannes.app.microlearn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "107878134873-5j8e1i7ccijeggtp9a7aje3kmbnnalug.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAH_SLbDpOAKkwGNf7vwttUdmmdLGBtFpE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "107878134873-5j8e1i7ccijeggtp9a7aje3kmbnnalug.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

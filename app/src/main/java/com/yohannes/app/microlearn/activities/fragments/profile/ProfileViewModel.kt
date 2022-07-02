@@ -1,4 +1,4 @@
-package com.yohannes.app.microlearn.activities.ui.profile
+package com.yohannes.app.microlearn.activities.fragments.profile
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

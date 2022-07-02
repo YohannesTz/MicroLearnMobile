@@ -11,5 +11,6 @@ data class Course(
     var coupons: List<String>,
     var price: Int,
     var couponValue: Int,
+    var averageRating: Float,
     var chapters: List<Chapter>
 )

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="300dp"
+    android:layout_height="200dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_margin="8dp"
+        android:elevation="8dp"
+        android:background="@color/black"
+        app:cardCornerRadius="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/course_background_horizontal"
+                android:layout_gravity="center_horizontal"
+                android:scaleType="fitXY"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:srcCompat="@drawable/ic_launcher_background" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="@drawable/fade_bottom_to_top"
+                    android:layout_gravity="bottom"/>
+
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/course_title_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="2dp"
+                android:text="This is the course Title"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/course_description_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="8dp"
+                android:text="Voldimr Starnes • Aug 2021 • 2h"
+                android:textColor="@color/grey_700"
+                android:textSize="16sp" />
+
+            <RatingBar
+                android:id="@+id/course_ratingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="?android:attr/ratingBarStyleIndicator"
+                android:scaleX=".8"
+                android:rating="2.5"
+                android:scaleY=".8"
+                android:layout_marginStart="8dp"
+                android:layout_marginBottom="8dp"
+                android:transformPivotX="0dp"
+                android:transformPivotY="0dp"
+                android:max="5"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

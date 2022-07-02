@@ -8,10 +8,43 @@
     tools:context=".activities.CourseDetailActivity"
     tools:showIn="@layout/activity_course_detail">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="@dimen/text_margin"
-        android:text="@string/large_text" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/course_title_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="Course Title"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/course_description_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@string/lorem_long"
+            android:textSize="16sp" />
+
+        <RatingBar
+            android:id="@+id/course_ratingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?android:attr/ratingBarStyleIndicator"
+            android:scaleX=".8"
+            android:rating="2.5"
+            android:scaleY=".8"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="8dp"
+            android:transformPivotX="0dp"
+            android:transformPivotY="0dp"
+            android:max="5"/>
+
+    </LinearLayout>
 
 </androidx.core.widget.NestedScrollView>

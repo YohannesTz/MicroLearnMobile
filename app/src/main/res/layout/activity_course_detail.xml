@@ -38,7 +38,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
                 app:layout_collapseMode="pin"
-                app:menu="@menu/menu_course_detail"
+                app:menu="@menu/details_menu"
                 app:popupTheme="@style/Theme.MicroLearn.PopupOverlay" />
 
         </com.google.android.material.appbar.CollapsingToolbarLayout>

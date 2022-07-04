@@ -1,9 +1,7 @@
 package com.yohannes.app.microlearn.activities
 
 import android.os.Bundle
-import com.google.android.material.appbar.CollapsingToolbarLayout
-import com.google.android.material.floatingactionbutton.FloatingActionButton
-import com.google.android.material.snackbar.Snackbar
+import android.view.Menu
 import androidx.appcompat.app.AppCompatActivity
 import com.yohannes.app.microlearn.R
 import com.yohannes.app.microlearn.databinding.ActivityCourseDetailBinding
@@ -19,7 +17,13 @@ class CourseDetailActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         setSupportActionBar(findViewById(R.id.toolbar))
-        //binding.toolbarLayout.title = title
+        binding.toolbarLayout.title = ""
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        supportActionBar?.setDisplayShowHomeEnabled(true)
+    }
 
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.details_menu, menu)
+        return true
     }
 }

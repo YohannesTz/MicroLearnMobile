@@ -16,7 +16,7 @@
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="app/src/main/res/layout/activity_sign_in.xml" value="0.2" />
         <entry key="app/src/main/res/layout/activity_start.xml" value="0.17291666666666666" />
-        <entry key="app/src/main/res/layout/content_scrolling.xml" value="0.21" />
+        <entry key="app/src/main/res/layout/content_scrolling.xml" value="0.25" />
         <entry key="app/src/main/res/layout/course_horizontal_list_item.xml" value="0.12" />
         <entry key="app/src/main/res/layout/course_list_item.xml" value="0.22" />
         <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.17291666666666666" />
@@ -24,6 +24,7 @@
         <entry key="app/src/main/res/layout/fragment_notifications.xml" value="0.17291666666666666" />
         <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.22" />
         <entry key="app/src/main/res/layout/image_slider_layout_item.xml" value="0.17291666666666666" />
+        <entry key="app/src/main/res/layout/instructor_layout.xml" value="0.171875" />
         <entry key="app/src/main/res/layout/messages_list_item.xml" value="0.22" />
         <entry key="app/src/main/res/layout/notification_list_item.xml" value="0.22" />
         <entry key="app/src/main/res/layout/slider_item_layout.xml" value="0.12" />
